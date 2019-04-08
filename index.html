@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head><link rel="stylesheet" href="normalize.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Bulma!</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		<link rel="stylesheet" href="styles/helpers.css">
+		<link rel="stylesheet" href="styles/grid.css">
+		<style>
+
+/* background */		
+.hero {
+	background: black url(http://stellaclothing.com.au/wp-content/uploads/2016/02/Stella-Website-Banner-copy1.jpg) center / cover;
+}
+
+@media (max-width: 1024px) { .hero { background: black url((http://stellaclothing.com.au/wp-content/uploads/2016/02/Stella-Website-Banner-copy1.jpg) center / cover; } }
+@media (max-width:  768px) { .hero { background: black url((http://stellaclothing.com.au/wp-content/uploads/2016/02/Stella-Website-Banner-copy1.jpg) center / cover; } }
+
+/* responsive */
+@media (max-width: 768px) {
+	:root {
+		font-size: 90%;
+	}
+}
+  .top-offer{
+        background-color: #000;
+    }
+    .top-offer-text{
+        text-align: center;
+        color: #fff;
+    }
+.hero.is-fullheight{
+	    margin: -15px 0px 0 0;
+}
+p.navbar-item.has-text-black {
+    font-size: 26px !important;
+    color: #fff !important;
+}
+.is-overlay .has-text-centered .single-spaced{
+	top: 330px !important;
+    left: 932px !important;
+
+}
+h2.subtitle.is-4.has-text-weight-light.has-text-black {
+    margin-left: 65px !important;
+    color: #fff !important;
+}
+h1.title.is-1.has-text-black {
+    color: #fff !important;
+}
+		</style>
+	</head>
+	<body>
+<div class="columns">
+  <div class="column top-offer">
+    <p class="top-offer-text">Save 30% on your purchase over $300</p>
+  </div>
+</div>
+<!-- .hero -->
+<section class="hero is-fullheight">
+
+<!-- .hero-head -->
+<nav class="hero-head">
+	<div class="columns is-mobile is-marginless heading has-text-weight-bold">
+		<div class="column left">
+			<figure class="navbar-item image">
+				<img src="images/tesla.svg" style="width: 6.25rem; height: 1rem;">
+			</figure>
+		</div>
+		<div class="column  desktop">
+			
+		</div>
+		<div class="column right">
+			<!-- <p class="navbar-item has-text-black">MODEL S </p>
+			<p class="navbar-item has-text-black">MODEL X </p> -->
+			<p class="navbar-item has-text-black">SHOP </p>
+			<p class="navbar-item has-text-black">OUR.STORY</p>
+			<p class="navbar-item has-text-black">HOW.ITS.MADE  </p>
+			<p class="navbar-item desktop has-text-black desktop">CONTACT   </p>
+			<p class="navbar-item desktop has-text-black desktop">SIGN IN</p>
+			<figure class="navbar-item image">
+				<i class="fas fa-3x fa-bars has-text-black"
+					style="width: 1rem; height: 1rem;"></i>
+			</figure>
+		</div>
+	</div>
+</nav>
+<!-- /.hero-head -->
+
+<!-- .hero-body -->
+<header class="hero-body">
+	<div class="is-overlay has-text-centered single-spaced" style="top: 92px; top: 330px !important;
+    left: 932px !important;">
+		<h1 class="title is-1 has-text-black">Tailored Leather</h1>
+		<h2 class="subtitle is-4 has-text-weight-light has-text-black">DESIGN TO INSPIRE | DESIGNED TO LAST</h2>
+		<a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold" style="    width: 20%; height: 50px; border: 0.15em solid white; border-radius: 0; margin: 0px 170px 0 0;">
+				BUY NOW
+			</a>
+	</div>
+</header>
+<!-- /.hero-body -->
+</section>
+<!-- /.hero -->
+
+	</body>
+</html>
